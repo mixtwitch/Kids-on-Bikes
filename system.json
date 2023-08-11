@@ -15,7 +15,7 @@
     {
     "name": "Jamie O'Connell"
   }],
-  "esmodules": ["module/kidsonbikes.mjs"],
+  "esmodules": ["module/kidsonbikes.js"],
   "styles": ["css/kidsonbikes.css"],
   "scripts": [],
   "packs": [],
