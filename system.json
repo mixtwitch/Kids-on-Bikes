@@ -1,13 +1,21 @@
 {
-  "name": "kidsonbikes",
+  "id": "kidsonbikes",
   "title": "Kids on Bikes",
   "description": "The Kids on Bikes system for FoundryVTT!",
-  "version": "1.0.0",
-  "minimumCoreVersion": "0.7.5",
-  "compatibleCoreVersion": "0.7.9",
-  "templateVersion": 2,
-  "author": "Josiah Bradbury",
-  "esmodules": ["module/kidsonbikes.js"],
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "11",
+    "maximum": 11
+  },
+  "authors": [{
+    "name": "Josiah Bradbury",
+    "url": "https://github.com/Singularity-Lathe-VTT/Kids-on-Bikes"
+  },
+    {
+    "name": "Jamie O'Connell"
+  }],
+  "esmodules": ["module/kidsonbikes.mjs"],
   "styles": ["css/kidsonbikes.css"],
   "scripts": [],
   "packs": [],
@@ -25,5 +33,7 @@
   "url": "",
   "manifest": "",
   "download": "",
-  "license": "LICENSE.txt"
+  "license": "LICENSE.txt",
+  "changelog": "",
+  "bugs": ""
 }
